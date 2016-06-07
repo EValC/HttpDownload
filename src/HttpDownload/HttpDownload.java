@@ -12,9 +12,9 @@ public class HttpDownload
 	        URL url = new URL(urlfile);
 	        HttpURLConnection con = (HttpURLConnection) url.openConnection();
 	        con.setRequestMethod("GET");
-	        con.setRequestProperty("X-COUPA-API-KEY", "096eff7825f0a7c6914f03af66dfb7ce3a5a2dc2");
+	        con.setRequestProperty("XAPI-KEY", "096eff7825f0a7c6914f03af66dfb7ce3a5a2dc2");
 	        con.setRequestProperty("Accept", "application/xml");
-	  		String urlParameters = "X-COUPA-API-KEY:096eff7825f0a7c6914f03af66dfb7ce3a5a2dc2&Accept:application/xml";
+	  		String urlParameters = "X-API-KEY:096eff7825f0a7c6914f03af66dfb7ce3a5a2dc2&Accept:application/xml";
 	  		con.setRequestProperty("content-type","application/x-www-form-urlencoded");
 	        int responseCode = con.getResponseCode();
 	        if (responseCode == HttpURLConnection.HTTP_OK) 
