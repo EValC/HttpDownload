@@ -6,7 +6,7 @@ public class HttpGet
 {
 	 public static void main(String[] args) 
 	 {
-	        String urlfile = "https://knott-demo.coupacloud.com/api/attachments/retrieve?id=12819";
+	        String urlfile = "https://knott-demo.cloud.com/api/attachments/retrieve?id=12819";
 	        String dir = "C://Z";
 	        try 
 	        {
